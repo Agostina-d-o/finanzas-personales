@@ -1489,4 +1489,17 @@ legend,
   .category-line {
     font-size: 12px;
   }
+  .movement-form .save-button {
+    position: fixed;
+    bottom: calc(85px + env(safe-area-inset-bottom));
+    left: 36px;
+    right: 36px;
+    width: calc(100% - 72px);
+    z-index: 25;
+    min-height: 48px;
+    box-shadow: 0 5px 22px #183c3833;
+  }
+  .movement-form {
+    padding-bottom: 85px;
+  }
 }
